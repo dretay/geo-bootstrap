@@ -12,9 +12,11 @@ bootswatch:
 
 bootstrap:
 	-test -d bootstrap && rm -r bootstrap
+	mkdir -p bootstrap/
 	curl --location -o latest_bootstrap.tar.gz https://github.com/twitter/bootstrap/tarball/master
-	tar -xvzf latest_bootstrap.tar.gz
-	mv twitter-bootstrap* bootstrap
+	mkdir -p bootstrap-unpack/
+	tar -xvzf latest_bootstrap.tar.gz -C bootstrap-unpack/
+	mv bootstrap-unpack/*/* bootstrap/
 	rm latest_bootstrap.tar.gz
 
 default:
