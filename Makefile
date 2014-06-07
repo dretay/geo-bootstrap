@@ -17,6 +17,7 @@ bootstrap:
 	mkdir -p bootstrap-unpack/
 	tar -xvzf latest_bootstrap.tar.gz -C bootstrap-unpack/
 	mv bootstrap-unpack/*/* bootstrap/
+	rm -r bootstrap-unpack/
 	rm latest_bootstrap.tar.gz
 
 default:
