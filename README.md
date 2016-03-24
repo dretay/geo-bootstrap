@@ -1,6 +1,8 @@
-# Geo
+# Geo3
 
-**Geo** is a timeless [Twitter Bootstrap](http://twitter.github.com/bootstrap) theme built for the modern web.
+**Geo3** is a timeless [Twitter Bootstrap](http://twitter.github.com/bootstrap) theme built for the modern web.
+
+Geo3 is a **work in progress** to port the original [geo-bootstrap](https://github.com/divshot/geo-bootstrap) Bootstrap 2.x theme by Divshot to Bootstrap 3.x, as well as improve it generally.  Geo3 isn't complete, issues still exist, but it does work minimally.
 
 ## Usage
 
@@ -17,6 +19,8 @@ To customize Geo edit `/swatch/variables.less` and `/swatch/bootswatch.less`. Re
 ## License
 
 Copyright (c) 2013 Divshot
+
+With Portions Copyright (c) 2014 A.B. Carroll <ben@hl9.net>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
